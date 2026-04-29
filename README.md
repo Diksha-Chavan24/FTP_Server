@@ -1,16 +1,16 @@
-# 📁 FTP_Server
+# FTP_Server
 
-## 🔹 Overview
+## Overview
 
 **FTP_Server** is a client-server application built using **TCP socket programming in C**.
 
 It allows a client to request a file from the server, and the server sends the file along with its size. The client then downloads and stores it locally.
 
-> ⚠️ Note: This is a custom file transfer system, not a full FTP protocol implementation.
+> Note: This is a custom file transfer system, not a full FTP protocol implementation.
 
 ---
 
-## 🔹 Project Files
+## Project Files
 
 ```id="eqp09z"
 program686.c  → Server Application
@@ -21,7 +21,7 @@ README.md     → Documentation
 
 ---
 
-## 🔹 Features
+## Features
 
 * TCP-based communication
 * Multi-client support using `fork()`
@@ -31,7 +31,7 @@ README.md     → Documentation
 
 ---
 
-## 🔹 Technologies Used
+## Technologies Used
 
 * C Programming
 * Linux System Calls
@@ -39,7 +39,7 @@ README.md     → Documentation
 
 ---
 
-## 🔹 Working
+## Working
 
 ### Step 1: Client sends file name
 
@@ -68,7 +68,7 @@ ERR
 
 ---
 
-## 🔹 Compilation
+## Compilation
 
 ```bash id="9s1q4y"
 gcc program686.c -o server
@@ -77,7 +77,7 @@ gcc program687.c -o client
 
 ---
 
-## 🔹 Execution
+## Execution
 
 ### Start Server
 
@@ -93,7 +93,7 @@ gcc program687.c -o client
 
 ---
 
-## 🔹 Example
+## Example
 
 ```id="vd71d8"
 Client: Request → Demo.txt
@@ -103,7 +103,7 @@ Client: Download complete...
 
 ---
 
-## 🔹 Future Improvements
+## Future Improvements
 
 * Multi-threading using pthread
 * File upload support
@@ -112,9 +112,6 @@ Client: Download complete...
 
 ---
 
-## 🔹 Author
-
-* Your Name
 
 ---
 
